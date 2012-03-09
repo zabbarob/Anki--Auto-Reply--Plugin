@@ -1,0 +1,14 @@
+Anki 'Auto Reply' Plugin
+
+Title: Auto Reply
+Tags: timer automation countdown attention pressure
+
+9 seconds after showing the answer to the current card the default answer button is automatically pressed and the next question shown. 
+
+The default answer button will be 2 for new cards and 3 for mature cards. Have a look at Anki's documentation - http://ankisrs.net/docs/manual.html#_answer_buttons 
+
+You can use this plugin together with the "Auto Answer" plugin to repeat cards again and again without manually pressing a button. "Auto Answer" will set the default answer button to 1 "Again" if you do not press a button. 
+
+You can configure the time span by opening the plugin file in a text editor and setting the value of secondsUntilReply to another amount of seconds (line 14 of the file). 
+
+If you want to provide feedback send an email to zabbarob@gmail.com
